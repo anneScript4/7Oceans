@@ -3,9 +3,8 @@
 }
 
 body{
-    font-family: 'Gentium Book Basic', serif;
+    font-family: 'Lekton', sans-serif;
     font-size: 22px;
-    font-weight: 400;
     line-height: 1.5;
     background-color: #0b161e;
     color: white;
@@ -29,7 +28,6 @@ header h1{
     font-size: 120px;
     display:block;
     color: #400232;
-    font-weight: 700;
 }
 
 header h2{
