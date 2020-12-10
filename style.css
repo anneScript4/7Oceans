@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-snap-type: y mandatory;
+}
+
 body{
     font-family: 'Lekton', sans-serif;
     font-size: 22px;
@@ -30,7 +34,9 @@ section .full-image{
 }
 
 section{
-    display:flex;
+    display: flex;
+
+    scroll-snap-align: start;
 }
 
 section div{
