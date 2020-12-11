@@ -26,18 +26,25 @@ body{
 .textOpen{
     width:50vw;
     padding: 84px;
+
+    text-align:center;
+}
+
+.textOpen img{
+    width: 250px;
+    height: auto;
 }
 
 h1{
     font-family: 'resistanceregular';
-    font-size: 78px;
+    font-size: 68px;
     
     margin:0px;
 }
 
 h2{
     font-family: 'resistanceregular';
-    font-size: 48px;
+    font-size: 42px;
     
     text-align: end;
 }
@@ -47,6 +54,10 @@ h3{
     font-family: 'resistanceregular';
     
     margin:0px;
+}
+
+#noMargin p{
+    margin:0;
 }
 
 a{
