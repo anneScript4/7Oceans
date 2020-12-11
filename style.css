@@ -6,11 +6,19 @@ html{
     scroll-snap-type: y mandatory;
 }
 
+@font-face {
+    font-family: 'resistanceregular';
+    src: url('assets/resistance_generale-webfont.woff2') format('woff2'),
+         url('assets/resistance_generale-webfont.woff') format('woff');
+}
+
 body{
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Padauk', sans-serif;
     font-size: 22px;
     line-height: 1.5;
+    font-weight: bold;
     background-color: #0b161e;
+    /* background: linear-gradient(#e66465, #9198e5); */
     color: #fff;
     margin:0px;
 }
@@ -21,7 +29,24 @@ body{
 }
 
 h1{
-    font-size: 58px;
+    font-family: 'resistanceregular';
+    font-size: 78px;
+    
+    margin:0px;
+}
+
+h2{
+    font-family: 'resistanceregular';
+    font-size: 48px;
+    
+    text-align: end;
+}
+
+h3{
+    font-size: 38px;
+    font-family: 'resistanceregular';
+    
+    margin:0px;
 }
 
 a{
