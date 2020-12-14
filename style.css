@@ -35,6 +35,24 @@ body{
     height: auto;
 }
 
+.textEnd{
+    width:50vw;
+    padding: 84px;
+
+    text-align:center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    margin: auto;
+}
+
+.textEnd img{
+    height:12vh;
+}
+
 h1{
     font-family: 'resistanceregular';
     font-size: 68px;
