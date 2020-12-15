@@ -14,13 +14,17 @@ html{
 
 body{
     font-family: 'Padauk', sans-serif;
-    font-size: 22px;
-    line-height: 1.5;
+    font-size: 10px;
+    line-height: 1.2;
     font-weight: bold;
     background-color: #0b161e;
     /* background: linear-gradient(#e66465, #9198e5); */
     color: #fff;
     margin:0px;
+}
+
+body p{
+    font-size: 1.8rem;
 }
 
 .textOpen{
@@ -55,20 +59,20 @@ body{
 
 h1{
     font-family: 'resistanceregular';
-    font-size: 68px;
+    font-size: 4.5rem;
     
     margin:0px;
 }
 
 h2{
     font-family: 'resistanceregular';
-    font-size: 42px;
+    font-size: 2.8rem;
     
-    text-align: end;
+    text-align: start;
 }
 
 h3{
-    font-size: 38px;
+    font-size: 2.5rem;
     font-family: 'resistanceregular';
     
     margin:0px;
@@ -133,3 +137,7 @@ model-viewer{
     height: 100vh;
     margin: 0 auto;
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
