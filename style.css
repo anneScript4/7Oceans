@@ -44,17 +44,20 @@ body p{
     padding: 84px;
 
     text-align:center;
-    height: 100vh;
+    height: auto;
     background-size: cover;
     background-position: center;
-    position: sticky;
-    position: -webkit-sticky;
     top: 0;
     margin: auto;
 }
 
 .textEnd img{
     height:12vh;
+}
+
+.centered{
+    height:100vh;
+
 }
 
 h1{
